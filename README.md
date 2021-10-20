@@ -41,6 +41,11 @@ Also the equations like `2*x1 - 3*x2 == 5` must be given as `2*x1 + -3*x2 == 5`.
 
 If we want to input `-x1 - x2 + 2*x3 <= 10` , then it should be given as `-1*x1 + -1*x2 + 2*x3 <= 10`
 
+Also , there shound not be any parenthesis in the LHS of these atomic formulas. If there are, then they have to opended manually and then inputted to get the result.
+
+If we want to input `x1 - (x2 + x3)`, then it should be given as `x1 + -1*x2 + -1*x3`
+
+
 
 ## 1.3 Example
 ```python
