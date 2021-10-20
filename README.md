@@ -36,6 +36,11 @@ So please convert any such `And()` or `Or()` as follows:
     Or(f1,f2,f3) ==> Or(Or(f1,f2),f3)
 ```
 
+Also the equations like `2*x1 - 3*x2 == 5` must be given as `2*x1 + -3*x2 == 5`. So the connective must always be + , the coefficients can be negative.
+
+
+If we want to input `-x1 - x2 + 2*x3 <= 10` , then it should be given as `-1*x1 + -1*x2 + 2*x3 <= 10`
+
 
 ## 1.3 Example
 ```python
