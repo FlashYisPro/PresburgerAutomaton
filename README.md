@@ -17,7 +17,7 @@ main_solver(function,n,value_list)
 ```
 Here,
 
-`function` is standard a z3 general formula.
+`function` is a standard z3 general formula.
 
 `n` is the total number of variables used in `function`
 
